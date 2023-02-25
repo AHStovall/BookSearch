@@ -8,7 +8,7 @@ MERN Stack based book searching function that utilizes GraphQL and Google Books 
 https://safe-everglades-65545.herokuapp.com/
 
 ## Installation
-Access the URL in the link above.
+Access the URL in the link above. 
 
 ## Usage
 N/A
