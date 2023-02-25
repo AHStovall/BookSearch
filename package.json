@@ -4,14 +4,13 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts --openssl-legacy-provider start",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
   "engines": {
-    "node": "18.12.1",
-    "npm": "8.19.2"
+    "node": "16.0.0"
   },
   "keywords": [
     "heroku"
